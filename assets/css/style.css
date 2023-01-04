@@ -1,21 +1,21 @@
 /* style */
 body {
-	background-color: rgb(238, 241, 223);
+    background-color: rgb(238, 241, 223);
 }
 
 
 /* main container */
 #main {
-	text-align: center;
+    text-align: center;
 }
 
 
 /* heading */
 h1 {
-	color: black;
-	font-size: 45px;
-	padding-top: 80px;
-	margin-bottom: 1px;
+    color: black;
+    font-size: 45px;
+    padding-top: 80px;
+    margin-bottom: 1px;
 }
 
 /* gametiles */
@@ -28,28 +28,44 @@ h1 {
 #tile7,
 #tile8,
 #tile9 {
-	width: 80px;
-	height: 80px;
-	margin: auto;
-	border: 1px solid gray;
-	border-radius: 4px;
-	font-size: 30px;
-	text-align: center;
-	margin-bottom: -14px;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: -14px;
 }
 
 
 /* buttons - "play again" and "reset game" */
 .game_button {
-	box-sizing: border-box;
-	width: 110px;
-	height: 65px;
-	border: 1px solid rgb(9, 80, 77);
-	margin: auto;
-	border-radius: 4px;
-	font-family: Verdana, sans-serif;
-	background-color: rgb(9, 80, 77);
-	color: white;
-	font-size: 20px;
-	cursor: pointer;
+    box-sizing: border-box;
+    width: 110px;
+    height: 65px;
+    border: 1px solid rgb(9, 80, 77);
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana, sans-serif;
+    background-color: rgb(9, 80, 77);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* scoreboard */
+.scoreboard {
+    text-align: center;
+}
+
+.scoreboard>div {
+    display: inline-block;
+    padding: 5px 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Verdana, sans-serif;
+    color: rgb(20, 108, 103);
+    font-size: 20px;
 }

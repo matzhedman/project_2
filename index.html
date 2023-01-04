@@ -12,47 +12,63 @@
 
     <body>
         <!-- Heading -->
-			<h1>TIC TAC TOE</h1>
+        <h1>TIC TAC TOE</h1>
 
 
 
-			<!-- Tiles -->
-			<div class="game">				
-				<input type="text" id="tile1" class="gametile" onclick="mark_1(); statusTile();" readonly>
-				<input type="text" id="tile2" class="gametile" onclick="mark_2(); statusTile();" readonly>
-				<input type="text" id="tile3" class="gametile" onclick="mark_3(); statusTile();" readonly>
-				<br>
-				<br>
-				<input type="text" id="tile4" class="gametile" onclick="mark_4(); statusTile();" readonly>
-				<input type="text" id="tile5" class="gametile" onclick="mark_5(); statusTile();" readonly>
-				<input type="text" id="tile6" class="gametile" onclick="mark_6(); statusTile();" readonly>
-				<br>
-				<br>
-				<input type="text" id="tile7" class="gametile" onclick="mark_7(); statusTile();" readonly>
-				<input type="text" id="tile8" class="gametile" onclick="mark_8(); statusTile();" readonly>
-				<input type="text" id="tile9" class="gametile" onclick="mark_9(); statusTile();" readonly>
-			</div>
-            
+        <!-- Tiles -->
+        <div class="game">
+            <input type="text" id="tile1" class="gametile" onclick="mark_1(); statusTile();" readonly>
+            <input type="text" id="tile2" class="gametile" onclick="mark_2(); statusTile();" readonly>
+            <input type="text" id="tile3" class="gametile" onclick="mark_3(); statusTile();" readonly>
             <br>
-			<br>
-			<br>
-			
-			<!-- Buttons to Play again and Reset game -->
-			<div>
-				<button class="game_button" onclick="resetTiles()">
-					PLAY AGAIN
-				</button>
-				<button class="game_button" onclick="resetGame()">
-					RESET GAME
-				</button>
-			</div>
+            <br>
+            <input type="text" id="tile4" class="gametile" onclick="mark_4(); statusTile();" readonly>
+            <input type="text" id="tile5" class="gametile" onclick="mark_5(); statusTile();" readonly>
+            <input type="text" id="tile6" class="gametile" onclick="mark_6(); statusTile();" readonly>
+            <br>
+            <br>
+            <input type="text" id="tile7" class="gametile" onclick="mark_7(); statusTile();" readonly>
+            <input type="text" id="tile8" class="gametile" onclick="mark_8(); statusTile();" readonly>
+            <input type="text" id="tile9" class="gametile" onclick="mark_9(); statusTile();" readonly>
+        </div>
 
-			<br><br>
-            
+        <br>
+        <br>
+        <br>
 
-            
+        <!-- Buttons to Play again and Reset game -->
+        <div>
+            <button class="game_button" onclick="resetTiles()">
+                PLAY AGAIN
+            </button>
+            <button class="game_button" onclick="resetGame()">
+                RESET GAME
+            </button>
+        </div>
+
+        <br><br>
+
+        <!-- Scoreboard -->
+        <div class="scoreboard">
+            <div class="plx_result"> Player X
+                <p id="player_x">0</p>
+            </div>
+
+            <div class="tie_result"> Tie
+                <p id="tie">0</p>
+            </div>
+
+            <div class="plo_result"> Player O
+                <p id="player_o">0</p>
+            </div>
+        </div>
+        </div>
 
 
+
+
+        <!-- JavaScript file -->
         <script src="assets/js/script.js"></script>
     </body>
 </main>
