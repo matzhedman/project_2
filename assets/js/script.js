@@ -135,17 +135,17 @@ let tie_score = 0;
 
 function x_win() {
 	plx_score++;
-	player_x.innerHTML = plx_score;
+	document.getElementById('player_x').innerHTML = plx_score;
 }
 
 function o_win() {
 	plo_score++;
-	player_o.innerHTML = plo_score;
+	document.getElementById('player_o').innerHTML = plo_score;
 }
 
 function tie_win() {
 	tie_score++;
-	tie.innerHTML = tie_score;
+	document.getElementById('tie').innerHTML = tie_score;
 }
 
 
