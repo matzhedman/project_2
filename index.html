@@ -15,7 +15,7 @@
 			<!-- Heading -->
 			<h1>TIC TAC TOE</h1>
 			<!-- The modal with game instructions -->
-			<button id="btn_modal">Instructions</button>
+			<button id="btnModal">Instructions</button>
 			<div id="modalInstructions" class="modal">
 
 				<!-- Modal content -->
@@ -39,19 +39,19 @@
 
 			<!-- Tiles -->
 			<div class="game">
-				<input type="text" id="tile1" class="gametile" onclick="mark_1(); statusTile();" readonly>
-				<input type="text" id="tile2" class="gametile" onclick="mark_2(); statusTile();" readonly>
-				<input type="text" id="tile3" class="gametile" onclick="mark_3(); statusTile();" readonly>
+				<input type="text" id="tile1" class="gametile" onclick="mark1(); statusTile();" readonly>
+				<input type="text" id="tile2" class="gametile" onclick="mark2(); statusTile();" readonly>
+				<input type="text" id="tile3" class="gametile" onclick="mark3(); statusTile();" readonly>
 				<br>
 				<br>
-				<input type="text" id="tile4" class="gametile" onclick="mark_4(); statusTile();" readonly>
-				<input type="text" id="tile5" class="gametile" onclick="mark_5(); statusTile();" readonly>
-				<input type="text" id="tile6" class="gametile" onclick="mark_6(); statusTile();" readonly>
+				<input type="text" id="tile4" class="gametile" onclick="mark4(); statusTile();" readonly>
+				<input type="text" id="tile5" class="gametile" onclick="mark5(); statusTile();" readonly>
+				<input type="text" id="tile6" class="gametile" onclick="mark6(); statusTile();" readonly>
 				<br>
 				<br>
-				<input type="text" id="tile7" class="gametile" onclick="mark_7(); statusTile();" readonly>
-				<input type="text" id="tile8" class="gametile" onclick="mark_8(); statusTile();" readonly>
-				<input type="text" id="tile9" class="gametile" onclick="mark_9(); statusTile();" readonly>
+				<input type="text" id="tile7" class="gametile" onclick="mark7(); statusTile();" readonly>
+				<input type="text" id="tile8" class="gametile" onclick="mark8(); statusTile();" readonly>
+				<input type="text" id="tile9" class="gametile" onclick="mark9(); statusTile();" readonly>
 			</div>
 
 			<br>
@@ -60,10 +60,10 @@
 
 			<!-- Buttons to Play again and Reset game -->
 			<div>
-				<button class="game_button" onclick="resetTiles()">
+				<button class="gameButton" onclick="resetTiles()">
 					PLAY AGAIN
 				</button>
-				<button class="game_button" onclick="resetGame()">
+				<button class="gameButton" onclick="resetGame()">
 					RESET GAME
 				</button>
 			</div>
@@ -72,16 +72,16 @@
 
 			<!-- Scoreboard -->
 			<div class="scoreboard">
-				<div class="plx_result"> Player X
-					<p id="player_x">0</p>
+				<div class="plxResult"> Player X
+					<p id="playerX">0</p>
 				</div>
 
-				<div class="tie_result"> Tie
+				<div class="tieResult"> Tie
 					<p id="tie">0</p>
 				</div>
 
-				<div class="plo_result"> Player O
-					<p id="player_o">0</p>
+				<div class="ploResult"> Player O
+					<p id="playerO">0</p>
 				</div>
 			</div>
 		</div>

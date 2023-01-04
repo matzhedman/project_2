@@ -7,7 +7,7 @@
 
 playerTurn = 1;
 
-function mark_1() {
+function mark1() {
 
 	if (playerTurn == 1) {
 		document.getElementById("tile1").value = "x";
@@ -20,7 +20,7 @@ function mark_1() {
 	}
 }
 
-function mark_2() {
+function mark2() {
 	if (playerTurn == 1) {
 		document.getElementById("tile2").value = "x";
 		document.getElementById("tile2").disabled = true;
@@ -32,7 +32,7 @@ function mark_2() {
 	}
 }
 
-function mark_3() {
+function mark3() {
 	if (playerTurn == 1) {
 		document.getElementById("tile3").value = "x";
 		document.getElementById("tile3").disabled = true;
@@ -44,7 +44,7 @@ function mark_3() {
 	}
 }
 
-function mark_4() {
+function mark4() {
 	if (playerTurn == 1) {
 		document.getElementById("tile4").value = "x";
 		document.getElementById("tile4").disabled = true;
@@ -56,7 +56,7 @@ function mark_4() {
 	}
 }
 
-function mark_5() {
+function mark5() {
 	if (playerTurn == 1) {
 		document.getElementById("tile5").value = "x";
 		document.getElementById("tile5").disabled = true;
@@ -68,7 +68,7 @@ function mark_5() {
 	}
 }
 
-function mark_6() {
+function mark6() {
 	if (playerTurn == 1) {
 		document.getElementById("tile6").value = "x";
 		document.getElementById("tile6").disabled = true;
@@ -80,7 +80,7 @@ function mark_6() {
 	}
 }
 
-function mark_7() {
+function mark7() {
 	if (playerTurn == 1) {
 		document.getElementById("tile7").value = "x";
 		document.getElementById("tile7").disabled = true;
@@ -92,7 +92,7 @@ function mark_7() {
 	}
 }
 
-function mark_8() {
+function mark8() {
 	if (playerTurn == 1) {
 		document.getElementById("tile8").value = "x";
 		document.getElementById("tile8").disabled = true;
@@ -104,7 +104,7 @@ function mark_8() {
 	}
 }
 
-function mark_9() {
+function mark9() {
 	if (playerTurn == 1) {
 		document.getElementById("tile9").value = "x";
 		document.getElementById("tile9").disabled = true;
@@ -128,24 +128,24 @@ function displayPlayerTurn() {
 
 
 // scoreboard
-let plx_score = 0;
-let plo_score = 0;
-let tie_score = 0;
+let plxScore = 0;
+let ploScore = 0;
+let tieScore = 0;
 
 
-function x_win() {
-	plx_score++;
-	document.getElementById('player_x').innerHTML = plx_score;
+function xWin() {
+	plxScore++;
+	document.getElementById('playerX').innerHTML = plxScore;
 }
 
-function o_win() {
-	plo_score++;
-	document.getElementById('player_o').innerHTML = plo_score;
+function oWin() {
+	ploScore++;
+	document.getElementById('playerO').innerHTML = ploScore;
 }
 
-function tie_win() {
-	tie_score++;
-	document.getElementById('tie').innerHTML = tie_score;
+function tieWin() {
+	tieScore++;
+	document.getElementById('tie').innerHTML = tieScore;
 }
 
 
@@ -162,12 +162,12 @@ function resetTiles() {
 
 function resetGame() {
 	resetTiles();
-	plx_score = 0;
-	plo_score = 0;
-	tie_score = 0;
-	player_x.innerHTML = plx_score;
-	player_o.innerHTML = plo_score;
-	tie.innerHTML = tie_score;
+	plxScore = 0;
+	ploScore = 0;
+	tieScore = 0;
+	playerX.innerHTML = plxScore;
+	playerO.innerHTML = ploScore;
+	tie.innerHTML = tieScore;
 }
 
 
@@ -204,7 +204,7 @@ function statusTile() {
 			tile.disabled = true;
 		})
 		document.getElementById('print').innerHTML = "Player X won";
-		x_win();
+		xWin();
 
 
     // win conditions for Player O
@@ -225,7 +225,7 @@ function statusTile() {
 			tile.disabled = true;
 		})
 		document.getElementById('print').innerHTML = "Player O won";
-		o_win();
+		oWin();
 
     // conditions for a Tie
 	} else if ((tile1 == "o" || tile1 == "x") && (tile2 == "o" || tile2 == "x") && (tile3 == "o" || tile3 == "x") &&
@@ -238,7 +238,7 @@ function statusTile() {
 			tile.disabled = true;
 		})
 		document.getElementById('print').innerHTML = "It's a Tie!";
-		tie_win();
+		tieWin();
 
 	} else {
 		displayPlayerTurn();
@@ -249,7 +249,7 @@ function statusTile() {
 var modal = document.getElementById("modalInstructions");
 
 // opens the modal by clicking on the "Instructions"-button
-var btn = document.getElementById("btn_modal");
+var btn = document.getElementById("btnModal");
 
 btn.onclick = function () {
 	modal.style.display = "block";
