@@ -14,8 +14,8 @@ body {
 h1 {
 	color: black;
 	font-size: 45px;
-	padding-top: 80px;
-	margin-bottom: 15px;
+	padding-top: 50px;
+	margin-bottom: 35px;
 }
 
 
@@ -65,7 +65,7 @@ h1 {
 	width: 110px;
 	height: 35px;
 	border: 1px solid rgb(9, 80, 77);
-	margin-bottom: 10px;
+	margin-bottom: 40px;
 	border-radius: 4px;
 	font-family: Verdana, sans-serif;
 	background-color: rgb(9, 80, 77);
@@ -155,6 +155,10 @@ h1 {
 
 /* screen sizes 420px and smaller */
 @media screen and (max-width: 420px) {
+	h1 {
+		padding-top: 0px;
+		margin-bottom: 15px;
+	}
 	.modal-content {
 		margin: 20px;
 		height: fit-content;
@@ -168,5 +172,9 @@ h1 {
 		line-height: 2;
 		padding: 0;
 		list-style-position: initial;
+	}
+
+	#btnModal {
+		margin-bottom: 10px;
 	}
 }
