@@ -15,7 +15,7 @@ h1 {
 	color: black;
 	font-size: 45px;
 	padding-top: 80px;
-	margin-bottom: 1px;
+	margin-bottom: 15px;
 }
 
 
@@ -36,12 +36,13 @@ h1 {
 
 /* modal content */
 .modal-content {
-	background-color: #fefefe;
-	margin: 80px 20px;
+	background-color: #f7f6f6;
+	margin: auto;
 	padding: 20px;
 	border: 1px solid #888;
-	width: fit-content;
-	float: right;
+	border-radius: 5px;
+	width: 50%;
+
 }
 
 #modalHeading {
@@ -50,25 +51,26 @@ h1 {
 }
 
 #modalText {
-	text-align: left;
+	text-align: center;
 	font-size: 13px;
 	line-height: 3;
 	font-family: Verdana, sans-serif;
+	list-style-position: inside;
 }
 
 
 /* modal button */
 #btn_modal {
-	margin-right: 10px;
-	float: right;
 	box-sizing: border-box;
-	width: 160px;
-	height: 40px;
-	border: none;
+	width: 110px;
+	height: 35px;
+	border: 1px solid rgb(9, 80, 77);
+	margin-bottom: 10px;
+	border-radius: 4px;
 	font-family: Verdana, sans-serif;
-	background-color: rgb(238, 241, 223);
-	color: rgba(0, 0, 0, 0.698);
-	font-size: 17px;
+	background-color: rgb(9, 80, 77);
+	color: white;
+	font-size: 13px;
 	cursor: pointer;
 }
 
@@ -146,22 +148,25 @@ h1 {
 	vertical-align: middle;
 	font-family: Verdana, sans-serif;
 	color: rgb(20, 108, 103);
-	font-size: 20px;
+	font-size: 15px;
 }
 
 /* media queries */
 
 /* screen sizes 420px and smaller */
 @media screen and (max-width: 420px) {
-	.modal-content {		
-		margin: 70px 5px 0px 5px;
-		height: 40%;
-		float: none;		
+	.modal-content {
+		margin: 20px;
+		height: fit-content;
+		width: fit-content;
+		
 	}
 
 	#modalText {
 		text-align: left;
-		font-size: 11px;
+		font-size: 10px;
 		line-height: 2;
+		padding: 0;
+		list-style-position: initial;
 	}
 }
