@@ -8,69 +8,88 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Tic Tac Toe</title>
 </head>
-<main>
 
-    <body>
-        <!-- Heading -->
-        <h1>TIC TAC TOE</h1>
+<body>
+	<main>
+		<div id="main">
+			<!-- The modal with game instructions -->
+			<button id="btn_modal">Instructions</button>
+			<div id="modalInstructions" class="modal">
 
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<p id="modalHeading">Rules for the game!</p>
+					<ul id="modalText">
+						<li>Two players take turn of marking empty tiles</li>
+						<li>Player X starts the game by putting an X in one of the tiles</li>
+						<li>Player O continues by doing the same in a different tile</li>
+						<li>First one to have three in a row have won the game!</li>
+						<li>If all tiles are marked without anyone winning, it's a Tie!</li>
+					</ul>
+				</div>
+			</div>
 
+			<!-- Heading -->
+			<h1>TIC TAC TOE</h1>
 
-        <!-- Tiles -->
-        <div class="game">
-            <input type="text" id="tile1" class="gametile" onclick="mark_1(); statusTile();" readonly>
-            <input type="text" id="tile2" class="gametile" onclick="mark_2(); statusTile();" readonly>
-            <input type="text" id="tile3" class="gametile" onclick="mark_3(); statusTile();" readonly>
-            <br>
-            <br>
-            <input type="text" id="tile4" class="gametile" onclick="mark_4(); statusTile();" readonly>
-            <input type="text" id="tile5" class="gametile" onclick="mark_5(); statusTile();" readonly>
-            <input type="text" id="tile6" class="gametile" onclick="mark_6(); statusTile();" readonly>
-            <br>
-            <br>
-            <input type="text" id="tile7" class="gametile" onclick="mark_7(); statusTile();" readonly>
-            <input type="text" id="tile8" class="gametile" onclick="mark_8(); statusTile();" readonly>
-            <input type="text" id="tile9" class="gametile" onclick="mark_9(); statusTile();" readonly>
-        </div>
+			<!-- Prints who is playing and score on screen -->
+			<div>
+				<p id="print">Player X starts the game</p>
+			</div>
 
-        <br>
-        <br>
-        <br>
+			<!-- Tiles -->
+			<div class="game">
+				<input type="text" id="tile1" class="gametile" onclick="mark_1(); statusTile();" readonly>
+				<input type="text" id="tile2" class="gametile" onclick="mark_2(); statusTile();" readonly>
+				<input type="text" id="tile3" class="gametile" onclick="mark_3(); statusTile();" readonly>
+				<br>
+				<br>
+				<input type="text" id="tile4" class="gametile" onclick="mark_4(); statusTile();" readonly>
+				<input type="text" id="tile5" class="gametile" onclick="mark_5(); statusTile();" readonly>
+				<input type="text" id="tile6" class="gametile" onclick="mark_6(); statusTile();" readonly>
+				<br>
+				<br>
+				<input type="text" id="tile7" class="gametile" onclick="mark_7(); statusTile();" readonly>
+				<input type="text" id="tile8" class="gametile" onclick="mark_8(); statusTile();" readonly>
+				<input type="text" id="tile9" class="gametile" onclick="mark_9(); statusTile();" readonly>
+			</div>
 
-        <!-- Buttons to Play again and Reset game -->
-        <div>
-            <button class="game_button" onclick="resetTiles()">
-                PLAY AGAIN
-            </button>
-            <button class="game_button" onclick="resetGame()">
-                RESET GAME
-            </button>
-        </div>
+			<br>
+			<br>
+			<br>
 
-        <br><br>
+			<!-- Buttons to Play again and Reset game -->
+			<div>
+				<button class="game_button" onclick="resetTiles()">
+					PLAY AGAIN
+				</button>
+				<button class="game_button" onclick="resetGame()">
+					RESET GAME
+				</button>
+			</div>
 
-        <!-- Scoreboard -->
-        <div class="scoreboard">
-            <div class="plx_result"> Player X
-                <p id="player_x">0</p>
-            </div>
+			<br><br>
 
-            <div class="tie_result"> Tie
-                <p id="tie">0</p>
-            </div>
+			<!-- Scoreboard -->
+			<div class="scoreboard">
+				<div class="plx_result"> Player X
+					<p id="player_x">0</p>
+				</div>
 
-            <div class="plo_result"> Player O
-                <p id="player_o">0</p>
-            </div>
-        </div>
-        </div>
+				<div class="tie_result"> Tie
+					<p id="tie">0</p>
+				</div>
 
+				<div class="plo_result"> Player O
+					<p id="player_o">0</p>
+				</div>
+			</div>
+		</div>
 
-
-
-        <!-- JavaScript file -->
-        <script src="assets/js/script.js"></script>
-    </body>
-</main>
+		<!-- JavaScript file -->
+		<script src="assets/js/script.js"></script>
+	</main>
+</body>
 
 </html>
