@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Tic Tac Toe</title>
 </head>
-<body>
-    
-    <script src="assets/js/script.js"></script>
-</body>
+<main>
+
+    <body>
+        <!-- Heading -->
+			<h1>TIC TAC TOE</h1>
+
+
+
+			<!-- Tiles -->
+			<div class="game">				
+				<input type="text" id="tile1" class="gametile" onclick="mark_1(); statusTile();" readonly>
+				<input type="text" id="tile2" class="gametile" onclick="mark_2(); statusTile();" readonly>
+				<input type="text" id="tile3" class="gametile" onclick="mark_3(); statusTile();" readonly>
+				<br>
+				<br>
+				<input type="text" id="tile4" class="gametile" onclick="mark_4(); statusTile();" readonly>
+				<input type="text" id="tile5" class="gametile" onclick="mark_5(); statusTile();" readonly>
+				<input type="text" id="tile6" class="gametile" onclick="mark_6(); statusTile();" readonly>
+				<br>
+				<br>
+				<input type="text" id="tile7" class="gametile" onclick="mark_7(); statusTile();" readonly>
+				<input type="text" id="tile8" class="gametile" onclick="mark_8(); statusTile();" readonly>
+				<input type="text" id="tile9" class="gametile" onclick="mark_9(); statusTile();" readonly>
+			</div>
+            
+
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</main>
+
 </html>
