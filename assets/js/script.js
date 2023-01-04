@@ -116,3 +116,23 @@ function mark_9() {
 	}
 }
 
+// reset button 
+function resetTiles() {
+	const tiles = document.querySelectorAll('.gametile');
+	tiles.forEach(tile => {
+		tile.disabled = false;
+		tile.value = '';
+	})
+	playerTurn = 1;
+	document.getElementById('print').innerHTML = "";
+}
+
+function resetGame() {
+	resetTiles();
+	plx_score = 0;
+	plo_score = 0;
+	tie_score = 0;
+	player_x.innerHTML = plx_score;
+	player_o.innerHTML = plo_score;
+	tie.innerHTML = tie_score;
+}
