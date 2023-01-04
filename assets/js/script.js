@@ -5,7 +5,7 @@
  * It is set to start the game with Player X begins and then switch to Player O
  */
 
-playerTurn = 1;
+let playerTurn = 1;
 
 function mark1() {
 
@@ -120,9 +120,9 @@ function mark9() {
 // whose turn is it
 function displayPlayerTurn() {
 	if (playerTurn == 1) {
-		document.getElementById('print').innerHTML = "X is playing"
+		document.getElementById('print').innerHTML = "X is playing";
 	} else {
-		document.getElementById('print').innerHTML = "O is playing"
+		document.getElementById('print').innerHTML = "O is playing";
 	}
 }
 
@@ -155,7 +155,7 @@ function resetTiles() {
 	tiles.forEach(tile => {
 		tile.disabled = false;
 		tile.value = '';
-	})
+	});
 	playerTurn = 1;
 	document.getElementById('print').innerHTML = "Player X starts the game";
 }
@@ -165,9 +165,9 @@ function resetGame() {
 	plxScore = 0;
 	ploScore = 0;
 	tieScore = 0;
-	playerX.innerHTML = plxScore;
-	playerO.innerHTML = ploScore;
-	tie.innerHTML = tieScore;
+	document.getElementById('playerX').innerHTML = plxScore;
+	document.getElementById('playerO').innerHTML = ploScore;
+	document.getElementById('tie').innerHTML = tieScore;
 }
 
 
@@ -184,8 +184,8 @@ function statusTile() {
 	tile8 = document.getElementById("tile8").value;
 	tile9 = document.getElementById("tile9").value;
 
-// win conditions
-    // win conditions for Player X
+	// win conditions
+	// win conditions for Player X
 	if (
 		(tile1 == "x" && tile2 == "x" && tile3 == "x") ||
 		(tile4 == "x" && tile5 == "x" && tile6 == "x") ||
@@ -202,12 +202,12 @@ function statusTile() {
 		const tiles = document.querySelectorAll('.gametile');
 		tiles.forEach(tile => {
 			tile.disabled = true;
-		})
+		});
 		document.getElementById('print').innerHTML = "Player X won";
 		xWin();
 
 
-    // win conditions for Player O
+		// win conditions for Player O
 	} else if (
 		(tile1 == "o" && tile2 == "o" && tile3 == "o") ||
 		(tile4 == "o" && tile5 == "o" && tile6 == "o") ||
@@ -219,15 +219,15 @@ function statusTile() {
 
 		(tile1 == "o" && tile5 == "o" && tile9 == "o") ||
 		(tile3 == "o" && tile5 == "o" && tile7 == "o")
-	)	{
+	) {
 		const tiles = document.querySelectorAll('.gametile');
 		tiles.forEach(tile => {
 			tile.disabled = true;
-		})
+		});
 		document.getElementById('print').innerHTML = "Player O won";
 		oWin();
 
-    // conditions for a Tie
+		// conditions for a Tie
 	} else if ((tile1 == "o" || tile1 == "x") && (tile2 == "o" || tile2 == "x") && (tile3 == "o" || tile3 == "x") &&
 		(tile4 == "o" || tile4 == "x") && (tile5 == "o" || tile5 == "x") && (tile6 == "o" || tile6 == "x") &&
 		(tile7 == "o" || tile7 == "x") && (tile8 == "o" || tile8 == "x") && (tile9 == "o" || tile9 == "x"))
@@ -236,7 +236,7 @@ function statusTile() {
 		const tiles = document.querySelectorAll('.gametile');
 		tiles.forEach(tile => {
 			tile.disabled = true;
-		})
+		});
 		document.getElementById('print').innerHTML = "It's a Tie!";
 		tieWin();
 
@@ -253,18 +253,18 @@ var btn = document.getElementById("btnModal");
 
 btn.onclick = function () {
 	modal.style.display = "block";
-}
+};
 
 // closes the modal by clicking on the "X"
 var span = document.getElementsByClassName("close")[0];
 
 span.onclick = function () {
 	modal.style.display = "none";
-}
+};
 
 // closes the modal by clicking anywhere outside the modal
 window.onclick = function (event) {
 	if (event.target == modal) {
 		modal.style.display = "none";
 	}
-}
+};
