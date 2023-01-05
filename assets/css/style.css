@@ -77,7 +77,7 @@ h1 {
 
 /* modal - the close button */
 .close {
-	color: #aaa;
+	color: rgb(35, 34, 34);
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
