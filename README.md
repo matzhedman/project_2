@@ -23,14 +23,13 @@ Link to live page, click [here!](https://matzhedman.github.io/project_2/)
 ![Buttons](/assets/images/pp2_buttons.png)
 #### Scoreboard
 ![Scoreboard](/assets/images/pp2_scoreboard.png)
-#### Link to GitHub-page
-![Link to GitHub-page](/assets/images/pp2_footer.png)
 ### Features left to implement
 
 
 ## Testing
 ### Validator testing
-
+![HTML validation](/assets/images/pp2_html_validator.png)
+![CSS validation](/assets/images/pp2_css_validator.png)
 ### Unfixed bugs
 
 ## Deployment
