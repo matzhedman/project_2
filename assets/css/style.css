@@ -154,6 +154,32 @@ h1 {
 
 /* media queries */
 
+/* screen sizes 950px down to 420px */
+@media screen and (max-width: 950px) {
+	h1 {
+		padding-top: 0px;
+		margin-bottom: 15px;
+	}
+	.modal-content {
+		
+		height: fit-content;
+		width: fit-content;
+		
+	}
+
+	#modalText {
+		text-align: left;
+		font-size: 10px;
+		line-height: 2;
+		padding: 0;
+		list-style-position: initial;
+	}
+
+	#btnModal {
+		margin-bottom: 10px;
+	}
+}
+
 /* screen sizes 420px and smaller */
 @media screen and (max-width: 420px) {
 	h1 {

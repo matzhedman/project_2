@@ -84,8 +84,6 @@ Link to live page, click [here!](https://matzhedman.github.io/project_2/)
 
 ![Player X wins](/assets/images/pp2_x_wins.png)
 
-
-
 ### Winning conditions
 In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 * [ 1 , 2 , 3 ]
@@ -109,6 +107,11 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 * Tie!
 
 ![Tie](/assets/images/pp2_tie.png)
+
+## Responsive view
+### 
+
+
 
 
 ## Testing
