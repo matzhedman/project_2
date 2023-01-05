@@ -25,11 +25,33 @@ Link to live page, click [here!](https://matzhedman.github.io/project_2/)
 ![Scoreboard](/assets/images/pp2_scoreboard.png)
 ### Features left to implement
 
+## The Game
+### Winning conditions
+In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
+* [ 1 , 2 , 3 ]
+* [ 4 , 5 , 6 ]
+* [ 7 , 8 , 9 ]
+* [ 1 , 4 , 7 ]
+* [ 2 , 5 , 8 ]
+* [ 3 , 6 , 9 ]
+* [ 1 , 5 , 9 ]
+* [ 3 , 5 , 7 ]
+
 
 ## Testing
 ### Validator testing
+* Passed the HTML validator without errors
 ![HTML validation](/assets/images/pp2_html_validator.png)
+
+* Passed the CSS validator without errors
 ![CSS validation](/assets/images/pp2_css_validator.png)
+
+* The website has been tested with Lighthouse
+![Lighthouse report](/assets/images/pp2_lighthouse.png)
+
+* The website has been tested with WAVE Evaluation tool
+![Wave report](/assets/images/pp2_wave_report.png)
+
 ### Unfixed bugs
 
 ## Deployment
