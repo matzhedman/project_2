@@ -1,16 +1,36 @@
 # TIC TAC TOE
 This game of TIC TAC TOE is a game built on JavaScript and has a purpose of creating a fun easy going game to challenge a friend.
+![Responsive view all screens](/assets/images/pp2_responsive.png)
+Link to live page, click [here!](https://matzhedman.github.io/project_2/)
 
 
 ## Features
 
 ### Existing features
-#### 
+#### Landing page
+![Full view](/assets/images/pp2_full_view.png)
+#### Heading
+![Heading](/assets/images/pp2_header.png)
+#### Button for game instructions
+![Button for game instructions](/assets/images/pp2_instruction_button.png)
+#### Game instructions
+![Game instructions full view](/assets/images/pp2_modal_fullscreen.png)
+![Game instructions message](/assets/images/pp2_modal_message.png)
+![Game instruction close button](/assets/images/pp2_modal_close_button.png)
+#### The board
+![The board](/assets/images/pp2_blank_tiles.png)
+#### Buttons
+![Buttons](/assets/images/pp2_buttons.png)
+#### Scoreboard
+![Scoreboard](/assets/images/pp2_scoreboard.png)
+#### Link to GitHub-page
+![Link to GitHub-page](/assets/images/pp2_footer.png)
 ### Features left to implement
 
 
 ## Testing
 ### Validator testing
+
 ### Unfixed bugs
 
 ## Deployment
