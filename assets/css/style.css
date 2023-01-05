@@ -151,6 +151,29 @@ h1 {
 	font-size: 15px;
 }
 
+/* footer */
+footer {
+    height: 150px;
+    margin-top: 80px;
+	font-family: Verdana, sans-serif;
+	
+}
+
+.links-further {
+    text-align: center;
+	
+}
+
+.links-further > li {
+    display: inline;
+    margin-inline: 40px; 
+	   
+}
+
+.links-further a:hover {
+    border-bottom: 1px solid rgb(20, 108, 103);
+}
+
 /* media queries */
 
 /* screen sizes 420px and smaller */
