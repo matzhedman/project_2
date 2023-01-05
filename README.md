@@ -112,14 +112,21 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 #### The page were tested to ensure responsiveness on screen sizes from 320px and upwards.
 * It has been tested on: 
     * Chrome (laptop)
-
     * Safari (laptop)
-
     * Safari (iPhone XR)
+    * Safari (iPhone SE using Chrome Dev tools)
 
-    
+* Full screen iPhone SE
 
+![iPhone SE](/assets/images/pp2_resp_iphone_se_full.png)
 
+* Modal message iPhone SE
+
+![iPhone SE modal](/assets/images/pp2_resp_iphone_se_modal_message.png)
+
+* iPhone SE - "Player X won"
+
+![Player X won, iPhone SE view](/assets/images/pp2_resp_iphone_se_x_win.png)
 
 
 ## Testing
