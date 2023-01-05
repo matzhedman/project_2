@@ -109,7 +109,15 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 ![Tie](/assets/images/pp2_tie.png)
 
 ## Responsive view
-### 
+#### The page were tested to ensure responsiveness on screen sizes from 320px and upwards.
+* It has been tested on: 
+    * Chrome (laptop)
+
+    * Safari (laptop)
+
+    * Safari (iPhone XR)
+
+    
 
 
 
@@ -129,7 +137,6 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 ![Wave report](/assets/images/pp2_wave_report.png)
 
 ### Unfixed bugs
-small screen tapping outside the window wont close the modal 
 
 ## Deployment
 * The website was deployed using GitHub by using following steps:
