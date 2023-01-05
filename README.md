@@ -1,5 +1,6 @@
 # TIC TAC TOE
 This game of TIC TAC TOE is a game built on JavaScript and has a purpose of creating a fun easy going game to challenge a friend.
+
 ![Responsive view all screens](/assets/images/pp2_responsive.png)
 Link to live page, click [here!](https://matzhedman.github.io/project_2/)
 
@@ -20,13 +21,18 @@ Link to live page, click [here!](https://matzhedman.github.io/project_2/)
 ![Full view](/assets/images/pp2_full_view.png)
 #### Heading
 * The heading tells the viewer what the name of the game is, and for those who are not familiar with the game they can check the game instructions by tapping "Instructions".
+
 ![Heading](/assets/images/pp2_header.png)
+
 #### Button for game instructions
 * By tapping the button "Instructions" a modal window will open.
+
 ![Button for game instructions](/assets/images/pp2_instruction_button.png)
+
 #### Game instructions
 * The modal window opens at the top of the page.
 * The landing page will appear in the back, and get a bit fuzzy to make the instruction message more clear.
+
 ![Game instructions full view](/assets/images/pp2_modal_fullscreen.png)
 
 * The game instruction message contains of seven (7) short instructions in a list that tells the players: 
@@ -37,25 +43,49 @@ Link to live page, click [here!](https://matzhedman.github.io/project_2/)
 ![Game instructions message](/assets/images/pp2_modal_message.png)
 
 * The Instruction window can be closed by tapping the "X" in the right upper corner, or by tapping anywhere outside the Instruction window.
+
 ![Game instruction close button](/assets/images/pp2_modal_close_button.png)
+
 #### The board
 * A 3 x 3 board that will be blank when the page is loaded the first time.
+
 ![The board](/assets/images/pp2_blank_tiles.png)
 
 #### Buttons
 * Two main buttons underneath the Board, with different functions such as:
     * "PLAY AGAIN" will clear the board, but keep the score.
     * "RESET GAME" will both clear the board and reset the score.
+
 ![Buttons](/assets/images/pp2_buttons.png)
 
 #### Scoreboard
 * At the bottom of the page you'll find a Scoreboard that keeps the score of both Player X and Player O, but also if it's a Tie.
+
 ![Scoreboard](/assets/images/pp2_scoreboard.png)
 
 ### Features left to implement
-* The option of play against the computer 
+* A feature of switching Player X/Player O to start the game.
+* The option of play against the computer.
+
 
 ## The Game
+* The game starts with blank tiles, and Player X begins (always)
+
+![The board](/assets/images/pp2_blank_tiles.png)
+
+* Player X marks any of the blank tiles, it switches to Player O's turn.
+
+![Second move](/assets/images/pp2_second_move.png)
+* It continues with Player X
+
+![Third move](/assets/images/pp2_third_move.png)
+
+* The moment when someone gets three in a row, the Board will lock and it's not possible to mark any tiles until "PLAY AGAIN" or "RESET GAME" are tapped.
+
+![Player X wins](/assets/images/pp2_x_wins.png)
+
+
+
 ### Winning conditions
 In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 * [ 1 , 2 , 3 ]
@@ -66,6 +96,19 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 * [ 3 , 6 , 9 ]
 * [ 1 , 5 , 9 ]
 * [ 3 , 5 , 7 ]
+
+#### Examples of three scenarios
+* Player X wins
+
+![Player X wins](/assets/images/pp2_x_wins2.png)
+
+* Player O wins
+
+![Player O wins](/assets/images/pp2_o_win.png)
+
+* Tie!
+
+![Tie](/assets/images/pp2_tie.png)
 
 
 ## Testing
