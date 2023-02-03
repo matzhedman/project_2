@@ -1,11 +1,18 @@
 # TIC TAC TOE
-This game of TIC TAC TOE is a game built on JavaScript and has a purpose of creating a fun easy going game to challenge a friend.
+Classicals never grow old! This is the game TIC TAC TOE - a fun easy going, quite addictive, game for all ages. Challenge a friend and find the right strategies to become the winner! Good luck!
+
+This game is built mainly on JavaScript. It's responsive and interactive. 
+
+#######
+The purpose of this game is ... 
+#######
+
 
 ![Responsive view all screens](/assets/images/pp2_responsive.png)
 Link to live page, click [here!](https://matzhedman.github.io/project_2/)
 
 
-## Features
+# Features
 
 ### Existing features
 #### Landing page
@@ -108,7 +115,10 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 
 ![Tie](/assets/images/pp2_tie.png)
 
-## Responsive view
+
+
+# Testing
+### TESTING SITE RESPONSIVENESS
 #### The page were tested to ensure responsiveness on screen sizes from 320px and upwards.
 * It has been tested on: 
     * Chrome (laptop)
@@ -128,8 +138,6 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 
 ![Player X won, iPhone SE view](/assets/images/pp2_resp_iphone_se_x_win.png)
 
-
-## Testing
 ### Validator testing
 * Passed the HTML validator without errors
 ![HTML validation](/assets/images/pp2_html_validator.png)
@@ -144,8 +152,9 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 ![Wave report](/assets/images/pp2_wave_report.png)
 
 ### Unfixed bugs
+* No bugs detected through out the testing by me and friends.
 
-## Deployment
+# Deployment
 * The website was deployed using GitHub by using following steps:
     * In the GitHub repository for this project, click on "Settings".
     * Select "Branches" in the menu to the left, under "Code and automation".
@@ -153,9 +162,14 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 The link can also be found here: 
 https://matzhedman.github.io/project_2/
 
-## Credits
+# Credits
 ### Content
+* Inspiration to this game, and functions such as "onclick", the solution in JS for disabling tiles and changing turn comes from [this](https://www.geeksforgeeks.org/simple-tic-tac-toe-game-using-javascript/) tutorial by @asmitsirohi.
+* Design of scoreboard was inspired by [Ankit Kanojia](https://www.c-sharpcorner.com/article/tic-tac-toe-game-using-react-js-aplication/).
+* Modal was created using [this tutorial](https://www.w3schools.com/howto/howto_css_modals.asp) at W3Schools.
 ### Media
 
-#### Credits to my mentor for guidance through the project!
+### Acknowledgements
+Credits to my mentor Gareth McGirr for guidance through the project!
+A big thank you to my wife and to my friends Lizah and Stefan that supported me through this project, helping me break down all the logic and not giving up on me.
 
