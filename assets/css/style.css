@@ -93,7 +93,7 @@ h1 {
 
 /* gametiles */
 .game {
-
+	
 
 }
 
@@ -174,7 +174,7 @@ h1 {
 
 	#modalText {
 		text-align: left;
-		font-size: 10px;
+		font-size: 13px;
 		line-height: 2;
 		padding: 0;
 		list-style-position: initial;
@@ -200,7 +200,7 @@ h1 {
 
 	#modalText {
 		text-align: left;
-		font-size: 10px;
+		font-size: 13px;
 		line-height: 2;
 		padding: 0;
 		list-style-position: initial;

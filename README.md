@@ -1,5 +1,5 @@
 # TIC TAC TOE
-Classicals never grow old! This is the game TIC TAC TOE - a fun easy going, quite addictive, game for all ages. Challenge a friend and find the right strategies to become the winner! Good luck!
+Classicals never grow old! This is the game "TIC TAC TOE" - a fun easy going, quite addictive, game for all ages. Challenge a friend and find the right strategies to become the winner! Good luck!
 
 This game is built mainly on JavaScript. It's responsive and interactive. 
 
