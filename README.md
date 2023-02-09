@@ -151,6 +151,15 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 * The website has been tested with WAVE Evaluation tool
 ![Wave report](/assets/images/pp2_wave_report.png)
 
+
+
+
+### Testing User stories/Features
+
+### Manual Test Cases
+
+
+
 ### Unfixed bugs
 * No bugs detected through out the testing by me and friends.
 
