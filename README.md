@@ -157,6 +157,9 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 ### Testing User stories/Features
 
 ### Manual Test Cases
+![manual test 1](/assets/images/pp3_manualtest_1.png)
+![manual test 2](/assets/images/pp3_manualtest_2.png)
+![manual test 3](/assets/images/pp3_manualtest_3.png)
 
 
 
