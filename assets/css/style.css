@@ -163,6 +163,20 @@ h1 {
 	font-size: 20px;
 }
 
+.homeButton {
+	box-sizing: border-box;
+	width: 210px;
+	height: 65px;
+	border: 1px solid rgb(9, 80, 77);
+	margin: auto;
+	border-radius: 4px;
+	font-family: Verdana, sans-serif;
+	background-color: rgb(9, 80, 77);
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+
 
 /* media queries */
 
