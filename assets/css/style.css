@@ -156,6 +156,13 @@ h1 {
 	font-size: 15px;
 }
 
+/* 404 paragraphs */
+.paragraph_404 {
+	font-family: Verdana, sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+}
+
 
 /* media queries */
 
