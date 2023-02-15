@@ -134,39 +134,30 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 #### Actual result
 * As expected.
 
-#### Screenshots from testing responsiveness.
-* Full screen iPhone SE
-
-![iPhone SE](/assets/images/pp2_resp_iphone_se_full.png)
-
-* Modal message iPhone SE
-
-![iPhone SE modal](/assets/images/pp2_resp_iphone_se_modal_message.png)
-
-* iPhone SE - "Player X won"
-
-![Player X won, iPhone SE view](/assets/images/pp2_resp_iphone_se_x_win.png)
-
 ### Validator testing
 * Passed the HTML validator without errors
+
 ![HTML validation](/assets/images/pp2_html_validator.png)
 
 * Passed the CSS validator without errors
+
 ![CSS validation](/assets/images/pp2_css_validator.png)
 
 * The website has been tested with Lighthouse
+
 ![Lighthouse report](/assets/images/pp2_lighthouse.png)
 
 * The website has been tested with WAVE Evaluation tool
+
 ![Wave report](/assets/images/pp2_wave_report.png)
 
 
 ### Testing User stories/Features
 
 ### Manual Test Cases
-![manual test 1](/assets/images/pp3_manualtest_1.png)
-![manual test 2](/assets/images/pp3_manualtest_2.png)
-![manual test 3](/assets/images/pp3_manualtest_3.png)
+![manual test 1](/assets/images/pp2_manualtest_1.png)
+![manual test 2](/assets/images/pp2_manualtest_2.png)
+![manual test 3](/assets/images/pp2_manualtest_3.png)
 
 
 ### Unfixed bugs
