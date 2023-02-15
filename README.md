@@ -112,11 +112,16 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 
 ![Tie](/assets/images/pp2_tie.png)
 
+#### 404 page
+* If there is a problem with the landing page, it will direct the user to a 404 page.
+* A button is added below to easily navigate back to landing page to try again.
+![404](/assets/images/pp2_404.png)
+
 
 
 # Testing
 ### TESTING SITE RESPONSIVENESS
-#### The page were tested to ensure responsiveness on screen sizes from 320px and upwards.
+#### All pages were tested to ensure responsiveness on screen sizes from 320px and upwards.
 #### The following steps was taken:
 1. Open browser and navigate to the game, link [here!](https://matzhedman.github.io/project_2/.
 2. Right click and open dev tools.
