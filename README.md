@@ -3,11 +3,6 @@ Classicals never grow old! This is the game "TIC TAC TOE" - a fun easy going, qu
 
 This game is built mainly on JavaScript. It's responsive and interactive. 
 
-#######
-The purpose of this game is ... 
-#######
-
-
 ![Responsive view all screens](/assets/images/pp2_responsive.png)
 Link to live page, click [here!](https://matzhedman.github.io/project_2/)
 
@@ -120,12 +115,26 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 # Testing
 ### TESTING SITE RESPONSIVENESS
 #### The page were tested to ensure responsiveness on screen sizes from 320px and upwards.
+#### The following steps was taken:
+1. Open browser and navigate to the game, link [here!](https://matzhedman.github.io/project_2/.
+2. Right click and open dev tools.
+3. Set the screen size to 320px.
+4. Choose "Responsive" in dimensions, and set the zoom at 50%.
+5. Drag and increase the screen width up to maximum of 3258px (using iMac 21.5").
+
 * It has been tested on: 
-    * Chrome (laptop)
-    * Safari (laptop)
+    * Chrome - MacBook Air 13", iMac 21.5" 
+    * Safari - MacBook Air 13", iMac 21.5"
     * Safari (iPhone XR)
     * Safari (iPhone SE using Chrome Dev tools)
 
+#### Expected
+* The website is responsive to all the tested units and browsers, to ensure that; no elements are moving around or stretched.
+
+#### Actual result
+* As expected.
+
+#### Screenshots from testing responsiveness.
 * Full screen iPhone SE
 
 ![iPhone SE](/assets/images/pp2_resp_iphone_se_full.png)
@@ -152,15 +161,12 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 ![Wave report](/assets/images/pp2_wave_report.png)
 
 
-
-
 ### Testing User stories/Features
 
 ### Manual Test Cases
 ![manual test 1](/assets/images/pp3_manualtest_1.png)
 ![manual test 2](/assets/images/pp3_manualtest_2.png)
 ![manual test 3](/assets/images/pp3_manualtest_3.png)
-
 
 
 ### Unfixed bugs
