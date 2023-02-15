@@ -115,10 +115,12 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 #### 404 page
 * If there is a problem with the landing page, it will direct the user to a 404 page.
 * A button is added below to easily navigate back to landing page to try again.
+
 ![404](/assets/images/pp2_404.png)
 
 #### Favicon
 * A favicon has been added to the header, it makes it easy for the user to distinguish this website from others if several tabs are open.
+
 ![favicon](/assets/images/pp2_favicon.png)
 
 # Testing
@@ -144,6 +146,7 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 * As expected.
 
 ### Validator testing
+#### Landing page, index.html
 * Passed the HTML validator without errors
 
 ![HTML validation](/assets/images/pp2_html_validator.png)
@@ -159,6 +162,11 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 * The website has been tested with WAVE Evaluation tool
 
 ![Wave report](/assets/images/pp2_wave_report.png)
+
+#### 404 page, 404.html
+* The website has been tested with WAVE Evaluation tool
+
+![Wave report](/assets/images/pp2_wave_report_404.png)
 
 
 ### Testing User stories/Features
