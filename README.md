@@ -48,6 +48,11 @@ Link to live page, click [here!](https://matzhedman.github.io/project_2/)
 
 ![Game instruction close button](/assets/images/pp2_modal_close_button.png)
 
+#### Scoreboard
+* Above the board you'll find a Scoreboard that keeps the score of both Player X and Player O, but also if it's a Tie.
+
+![Scoreboard](/assets/images/pp2_scoreboard.png)
+
 #### The board
 * A 3 x 3 board that will be blank when the page is loaded the first time.
 
@@ -60,10 +65,7 @@ Link to live page, click [here!](https://matzhedman.github.io/project_2/)
 
 ![Buttons](/assets/images/pp2_buttons.png)
 
-#### Scoreboard
-* At the bottom of the page you'll find a Scoreboard that keeps the score of both Player X and Player O, but also if it's a Tie.
 
-![Scoreboard](/assets/images/pp2_scoreboard.png)
 
 ### Features left to implement
 * A feature of switching Player X/Player O to start the game.
@@ -100,7 +102,7 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 #### Examples of three scenarios
 * Player X wins
 
-![Player X wins](/assets/images/pp2_x_wins2.png)
+![Player X wins](/assets/images/pp2_x_wins.png)
 
 * Player O wins
 
