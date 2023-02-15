@@ -164,6 +164,14 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 ![Wave report](/assets/images/pp2_wave_report.png)
 
 #### 404 page, 404.html
+* Passed the HTML validator without errors
+
+![HTML validation](/assets/images/pp2_html_validator_404.png)
+
+* Passed the CSS validator without errors
+
+![CSS validation](/assets/images/pp2_css_validator_404.png)
+
 * The website has been tested with WAVE Evaluation tool
 
 ![Wave report](/assets/images/pp2_wave_report_404.png)
