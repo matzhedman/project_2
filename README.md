@@ -117,7 +117,9 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 * A button is added below to easily navigate back to landing page to try again.
 ![404](/assets/images/pp2_404.png)
 
-
+#### Favicon
+* A favicon has been added to the header, it makes it easy for the user to distinguish this website from others if several tabs are open.
+![favicon](/assets/images/pp2_favicon.png)
 
 # Testing
 ### TESTING SITE RESPONSIVENESS
