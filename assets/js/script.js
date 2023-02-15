@@ -5,6 +5,7 @@
  * It is set to start the game with Player X begins and then switch to Player O
  */
 
+/* credit to @asmitsirohi to this function */
 let playerTurn = 1;
 
 function mark1() {
@@ -170,7 +171,7 @@ function resetGame() {
 	document.getElementById('tie').innerHTML = tieScore;
 }
 
-
+/* credit to @asmitsirohi for function "statusTile"*/
 // status on tiles 
 function statusTile() {
 	var tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8, tile9;
@@ -245,6 +246,7 @@ function statusTile() {
 	}
 }
 
+/* credit to W3School for modal */
 // modal
 var modal = document.getElementById("modalInstructions");
 
