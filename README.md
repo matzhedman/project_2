@@ -155,11 +155,11 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 
 ![CSS validation](/assets/images/pp2_css_validator.png)
 
-* The website has been tested with Lighthouse
+* The page has been tested with Lighthouse
 
 ![Lighthouse report](/assets/images/pp2_lighthouse.png)
 
-* The website has been tested with WAVE Evaluation tool
+* The page has been tested with WAVE Evaluation tool
 
 ![Wave report](/assets/images/pp2_wave_report.png)
 
@@ -172,7 +172,11 @@ In this game with 3 x 3 tiles, there is Eight (8) different winning conditions
 
 ![CSS validation](/assets/images/pp2_css_validator_404.png)
 
-* The website has been tested with WAVE Evaluation tool
+* The page has been tested with Lighthouse
+
+![Lighthouse report](/assets/images/pp2_lighthouse_404.png)
+
+* The page has been tested with WAVE Evaluation tool
 
 ![Wave report](/assets/images/pp2_wave_report_404.png)
 
