@@ -206,7 +206,8 @@ https://matzhedman.github.io/project_2/
 * Design of scoreboard was inspired by [Ankit Kanojia](https://www.c-sharpcorner.com/article/tic-tac-toe-game-using-react-js-aplication/).
 * Modal was created using [this tutorial](https://www.w3schools.com/howto/howto_css_modals.asp) at W3Schools.
 ### Media
-* The image for the favicon was found at ![this webpage](https://poki.se/spela/impossible-tic-tac-toe.html), and the favicon was created at ![favicon.io](https://favicon.io/).
+* The image for the favicon was found at [this webpage](https://poki.se/spela/impossible-tic-tac-toe.html), and the favicon was created at 
+[favicon.io](https://favicon.io/).
 
 ### Acknowledgements
 Credits to my mentor Gareth McGirr for guidance through the project!
